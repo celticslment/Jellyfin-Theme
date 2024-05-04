@@ -3234,7 +3234,7 @@ margin: .5em !important;
 
 .raised:hover .homeLibraryText, .emby-tab-button:hover .emby-button-foreground {
 
-color: rgb(var(--darkest)) !important;
+color: rgba(var(--accent)) !important;
 
 transition: 100ms;
 
@@ -3244,7 +3244,7 @@ transition: 100ms;
 
 #indexPage .homeLibraryButton:hover, .emby-tab-button:hover {
 
-background-color: rgba(var(--accent),.5) !important;
+background-color: rgb(118 116 114 / 76%) !important;
 
 border-radius: var(--rounding-circle) !important;
 
