@@ -1390,7 +1390,7 @@ border-top-right-radius: var(--rounding);
 
 .backgroundContainer {
 
-    background-color: rgba(var(--accent),0.17) !important;
+    background-color: rgb(101 101 101 / 17%) !important;
 
 }
 
