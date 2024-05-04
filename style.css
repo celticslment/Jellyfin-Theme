@@ -1078,7 +1078,7 @@ progress::-webkit-progress-value {
 
 border-radius: var(--rounding) !important;
 
-background: rgba(var(--accent),.42);
+background: rgba(var(--white-off), 0.13);
 
 backdrop-filter: blur(1px);
 
