@@ -1,4 +1,15 @@
-:root {--accent: 52, 73, 94;}          /* BBF1DD */
+:root {--accent: 211, 84, 0;}          /* BBF1DD */
+
+:root {--accent-off: 107, 138, 127;}      /* 6B8A7F */
+
+:root {--dark: 27, 36, 33;}              /* 1B2421 */  /* used for some details where a color too dark or too light wouldn't be ideal*/
+
+:root {--darkest: 21, 28, 25;}            /* 151C19 */  /* used for field's bg, text color when accent/accent-off becomes the bg color, etc */
+
+:root {--dark-highlight: 64, 83, 76;}    /* 40534C */  /* lighter than dark, used for dark highlights. BG in login page, etc */
+
+:root {--dark-apparent: 32, 41, 37;}      /* 202925 */  /* Only used in mobile layout. It is the color of the gradient over the backdrop image. must be its own value bc the color of the background color is the result of overlays. so just use a color picker on the background color in settings and put the value here */
+
 
 
 :root {--white: 243, 242, 243;}          /* F3F2F3 */  /* used for the BG of the play button */
