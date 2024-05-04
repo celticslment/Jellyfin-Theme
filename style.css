@@ -40,11 +40,11 @@
 
 
 
-/*Style backdrop*/
+/*Style backdrop stock= blur(12px) saturate(120%) contrast(120%) brightness(40%);*/
 
 .backdropImage {
 
-  filter: blur(12px) saturate(120%) contrast(120%) brightness(40%);
+  filter: blur(3px) saturate(187%) contrast(125%) brightness(27%);
 
 }
 
