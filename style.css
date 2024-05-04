@@ -556,9 +556,9 @@ font-size: 110%;
 
     backdrop-filter: blur(4px);
 
-    background-color: rgba(var(--accent), 0.85);
-
-    color: rgba(var(--darkest));
+    background-color: rgba(var(--accent), 1);
+	
+    color: white;
 
 }
 
@@ -884,9 +884,7 @@ progress::-webkit-progress-value {
 
 .navMenuOption:hover, .actionSheetMenuItem:hover {
 
-  background-color: rgba(var(--accent),0.5) !important;
-
-color: rgba(var(--darkest), 1) !important;
+color: white!important;
 
 border-radius: var(--rounding) !important;
 
