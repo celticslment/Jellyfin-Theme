@@ -3246,7 +3246,7 @@ transition: 100ms;
 
 #indexPage .homeLibraryButton:hover, .emby-tab-button:hover {
 
-background-color: rgb(94 100 106 / 63%) !important;
+background-color: rgba(var(--white-off), 0.35) !important;
 
 border-radius: var(--rounding-circle) !important;
 
