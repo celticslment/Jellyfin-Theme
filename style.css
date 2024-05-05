@@ -3003,13 +3003,19 @@ color: white;
 
 }
 
-
-
-.emby-input {
+#loginPage.emby-input {
 
   background-color: white!important;
 
 color: black;
+
+}
+
+.emby-input {
+
+  background-color: rgba(var(--darkest)) !important;
+
+color: white;
 
 }
 
