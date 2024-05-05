@@ -11,3 +11,9 @@ imgLogoIcon {
 .pageTitleWithLogo { 
 	background-image: url(https://i.imgur.com/dAEeqmL.png) !important;
 	} 
+
+/*Barra de navegacion superior*/
+
+.skinHeader-withBackground {
+    background-color: transparent!important;
+}
