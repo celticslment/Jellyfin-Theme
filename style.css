@@ -2211,6 +2211,30 @@ bottom: 12px;
   background: url(https://i.imgur.com/TnhjHjS.png) !important;  /* previously https://i.imgur.com/9vL4iNf.png https://i.imgur.com/T4zHTDI.jpeg */
 
   background-size: cover !important;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+  
 
 }
 
@@ -2478,7 +2502,7 @@ font-size: 110%;
 
   border-radius: 12px !important;
 
-  backdrop-filter: blur(9px) !important
+  backdrop-filter: blur(9px) !important;
 
 }
 
