@@ -1,4 +1,4 @@
-:root {--accent: 243, 44, 70;}          /* #F32C46 */
+/* :root {--accent: 243, 44, 70;}          /* #F32C46 */
 
 :root {--accent-off: 107, 138, 127;}      /* 6B8A7F */
 
@@ -4119,3 +4119,4 @@ color: rgba(var(--accent),.7) !important;
 opacity: 1;
 
 }
+  */
