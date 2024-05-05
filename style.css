@@ -3003,13 +3003,15 @@ color: white;
 
 }
 
+#loginPage .inputLabel {
+	color: black;
+	font-weight:bold;
+	}
+	
 #loginPage .emby-input {
-
-  background-color: white!important;
-
-color: black;
-
-}
+	background-color: white!important;
+	color: black;
+	}
 
 .emby-input {
 
