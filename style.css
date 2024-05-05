@@ -6,7 +6,7 @@
 }
 
 #loginPage .padded-left.padded-right.padded-bottom-page{
-	margin-top: 8em!important;
+	margin-top: 7em!important;
     backdrop-filter: blur(16px) saturate(180%)!important;
     -webkit-backdrop-filter: blur(16px) saturate(180%)!important;
     background-color: rgba(17, 25, 40, 0.75)!important;
@@ -19,6 +19,10 @@
     padding-bottom: 3.3% !important;
 }
 
+#loginPage .padded-left.padded-right.padded-bottom-page{
+	color:#f32c46;
+}
+	
 .button-submit {
     background: #f32c46;
     color: #fff;
