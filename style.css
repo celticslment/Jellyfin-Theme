@@ -5,6 +5,21 @@
 	background-size: cover!important;
 }
 
+#loginPage .padded-left.padded-right.padded-bottom-page{
+	margin-top: 8em!important;
+    backdrop-filter: blur(16px) saturate(180%)!important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%)!important;
+    background-color: rgba(17, 25, 40, 0.75)!important;
+    border-radius: 12px!important;
+    border: 1px solid rgba(255, 255, 255, 0.125)!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    max-width: 22em!important;
+    padding-top: 3.3%!important;
+    padding-bottom: 3.3% !important;
+}
+
+
 #loginPage .readOnlyContent,
 #loginPage form {
   max-width: 22em;
