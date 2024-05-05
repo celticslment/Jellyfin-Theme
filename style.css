@@ -2904,9 +2904,12 @@ fieldset {
 .emby-textarea,
 
 .emby-select-withcolor {
-	border: none !important;
-	background-color: white; 
-	}
+
+  border: none !important;
+
+  background-color: rgba(var(--darkest)); 
+
+}
 
 
 
@@ -3004,9 +3007,9 @@ color: white;
 
 .emby-input {
 
-  background-color: rgba(var(--darkest)) !important;
+  background-color: white!important;
 
-color: white;
+color: black;
 
 }
 
