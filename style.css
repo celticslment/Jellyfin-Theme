@@ -1,0 +1,13 @@
+
+/*Logo en barra de navegación*/
+.adminDrawerLogo img { 
+	content: url(https://i.imgur.com/dAEeqmL.png) !important;
+	}
+
+imgLogoIcon { 
+	content: url(https://i.imgur.com/dAEeqmL.png) !important;
+	} 
+	
+.pageTitleWithLogo { 
+	background-image: url(https://i.imgur.com/dAEeqmL.png) !important;
+	} 
