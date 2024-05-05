@@ -3003,6 +3003,9 @@ color: white;
 
 }
 
+#loginPage .sectionTitle{
+	color: rgba(var(--accent));
+}
 #loginPage .inputLabel {
 	color: white;
 	font-weight:bold;
