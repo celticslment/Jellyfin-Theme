@@ -2191,7 +2191,7 @@ bottom: 12px;
 #loginPage form {
 
     padding-top: 4em;
- position:fixed;
+
 }
 
 
@@ -2206,21 +2206,12 @@ bottom: 12px;
 
 }
 
-@keyframes scrollBg {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-330px);
-  }
-}
-
 #loginPage {
 
   background: url(https://i.imgur.com/TnhjHjS.png) !important;  /* previously https://i.imgur.com/9vL4iNf.png https://i.imgur.com/T4zHTDI.jpeg */
 
   background-size: cover !important;
-animation: scrollBg 35s linear;
+
 }
 
 
@@ -2487,7 +2478,7 @@ font-size: 110%;
 
   border-radius: 12px !important;
 
-  backdrop-filter: blur(9px) !important;
+  backdrop-filter: blur(9px) !important
 
 }
 
