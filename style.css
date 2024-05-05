@@ -1,3 +1,9 @@
+/*color principal #f32c46*/
+/*Inicio de sesion*/
+#loginPage{
+	background-image: url(https://i.imgur.com/TnhjHjS.png);
+	background-size: cover;
+}
 
 /*Logo en barra de navegación*/
 .adminDrawerLogo img { 
