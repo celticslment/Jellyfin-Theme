@@ -1,6 +1,6 @@
-:root {--accent: 187, 241, 221;}          /* BBF1DD */
+:root {--accent:243,44,70;}          /*Color de acento principal #F32C46*/
 
-:root {--accent-off: 107, 138, 127;}      /* 6B8A7F */
+:root {--accent-off:236,115,139;}      /*Color de acento atenuado #EC738B*/
 
 :root {--dark: 27, 36, 33;}              /* 1B2421 */  /* used for some details where a color too dark or too light wouldn't be ideal*/
 
@@ -510,57 +510,10 @@ font-size: 110%;
 
 
 
-/* Rounded left drawer buttons */
-
-.navMenuOption,
-
-.navMenuOption:hover,
-
-.navMenuOption-selected {
-
-    border-radius: var(--rounding-alt) !important;
-
-    width: 85% !important;
-
-    margin: auto !important;
-
-    text-align: center !important;
-
-    height: 45px !important;
-
-    margin-top: 4px !important; 
-
-    margin-bottom: 4px !important; 
-
-}
-
-.navMenuOption,
-
-.navMenuOption-selected {
-
-    width: 85% !important;
-
-}
 
 
 
-.navMenuOption:hover {
 
-    width: 89% !important;
-
-}
-
-
-
-.navMenuOption:hover:not(.navMenuOption-selected) {
-
-    backdrop-filter: blur(4px);
-
-    background-color: rgba(var(--accent), 0.85);
-
-    color: rgba(var(--darkest));
-
-}
 
 
 
@@ -877,21 +830,6 @@ progress::-webkit-progress-value {
 #itemDetailPage .button-link {color: inherit !important;}
 
 
-
-
-
-/* rounds hover menu options */
-
-.navMenuOption:hover, .actionSheetMenuItem:hover {
-
-  background-color: rgba(var(--accent),0.5) !important;
-
-color: rgba(var(--darkest), 1) !important;
-
-border-radius: var(--rounding) !important;
-
-}
-
 .actionSheetMenuItem:hover .listItemBodyText.secondary {
 
   color: rgba(var(--darkest), .85);
@@ -1000,7 +938,7 @@ background-color: rgba(var(--accent)) !important;
 
 * {
 
-  scrollbar-color: rgba(var(--accent),0.8) #0000 !important;
+  scrollbar-color: rgba(var(--accent),1) #0000 !important;
 
 }
 
@@ -1458,11 +1396,7 @@ transition: .2s;
 
 }
 
-.navMenuOption-selected, .selectionCommandsPanel {
 
-    background: rgba(var(--accent), 0.8) !important;
-
-}
 
 .raised,
 
@@ -2524,19 +2458,7 @@ font-size: 110%;
 
 
 
-/* dialogs */
 
-.dialog, .mainDrawer, .appfooter {
-
-backdrop-filter: blur(21px);
-
-background-color: rgba(var(--dark), 0.75) !important;
-
-border-radius:var(--rounding-large) !important;
-
-box-shadow: 0 0 1.9vh #000;
-
-}
 
 .toast {
 
@@ -3323,8 +3245,8 @@ display: none;
 }
 
 
-
-.adminDrawerLogo img { content: url(https://i.imgur.com/wHaGTm4.png) !important; } imgLogoIcon { content: url(https://i.imgur.com/wHaGTm4.png) !important; } .pageTitleWithLogo { background-image: url(https://i.imgur.com/wHaGTm4.png) !important; } /* dark variant https://i.imgur.com/QXXfCCs.png */
+/*Edit Logo Jellyhub Superior */
+.adminDrawerLogo img { content: url(https://i.imgur.com/y8GNyr3.png) !important; } imgLogoIcon { content: url(https://i.imgur.com/y8GNyr3.png) !important; } .pageTitleWithLogo { background-image: url(https://i.imgur.com/y8GNyr3.png) !important; } /* dark variant https://i.imgur.com/QXXfCCs.png */
 
 
 
@@ -4116,4 +4038,58 @@ color: rgba(var(--accent),.7) !important;
 
 opacity: 1;
 
+}
+
+
+
+
+
+.navMenuOption, .navMenuOption:hover, .navMenuOption-selected {
+	border-radius: var(--rounding-alt) !important;
+    width: 100% !important;
+    text-align: center !important;
+    height: 45px !important;
+    margin-top: 4px !important; 
+    margin-bottom: 4px !important; 
+}
+
+.navMenuOption:hover {
+	width: 100% !important;
+}
+
+.touch-menu-la {
+	box-shadow: 7px 0 8px rgba(0, 0, 0, .4)!important;
+    border-radius: 0px 20px 20px 0px !important;
+    backdrop-filter: blur(16px) saturate(180%)!important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%)!important;
+    background-color: rgba(17, 25, 40, 0.75)!important;
+    border-right: 1px solid rgba(255, 255, 255, 0.125)!important;
+}
+
+.navMenuOption:hover, .actionSheetMenuItem:hover {
+    background-color: rgba(var(--accent), 1) !important;
+    color: white;
+    border-radius: var(--rounding) !important;
+}
+
+.navMenuOption-selected, .selectionCommandsPanel {
+	background: rgba(var(--accent), 1) !important;
+}
+
+.navMenuOption, .navMenuOption-selected {
+    width: 100% important;
+	color:white!important;
+}
+
+.sidebarHeader {
+    margin: 1em 0 .5em;
+    color: rgba(var(--accent-off), 1);
+    font-weight: 700;
+    text-shadow: none !important;
+    padding-left: 1.2em;
+    padding-bottom: 0.1em;
+    font-family: sans-serif;
+    padding-top: 0.1em;
+    border-bottom: 2px solid #00000036;
+    -webkit-font-smoothing: antialiased;
 }
