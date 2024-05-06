@@ -57,9 +57,845 @@
 	content: url(https://i.imgur.com/dAEeqmL.png) !important;
 	}
 
+<<<<<<< HEAD
 imgLogoIcon { 
 	content: url(https://i.imgur.com/dAEeqmL.png) !important;
 	} 
+=======
+#loginPage .squareCard {
+
+    width: 33%;
+
+}
+
+#loginPage form {
+
+    padding-top: 4em;
+
+}
+
+
+
+#loginPage .sectionTitle{
+
+    margin-left: auto !important;
+
+    margin-right: auto !important;
+
+    margin-bottom: 1.2em !important;
+
+}
+
+#loginPage {
+
+  background: url(https://i.imgur.com/TnhjHjS.png) !important;  /* previously https://i.imgur.com/9vL4iNf.png https://i.imgur.com/T4zHTDI.jpeg */
+
+  background-size: cover !important;
+
+}
+
+
+
+#loginPage .pageTitleWithDefaultLogo {
+
+  display: none !important;
+
+}
+
+
+
+/* margin to Jellyfin logo */
+
+.pageTitle {
+
+margin: 0 0 0 .15em;
+
+}
+
+
+
+/* #### Media Player #### */
+
+
+
+
+
+/* hide volume bar in media player */
+
+
+
+.osdVolumeSliderContainer {
+
+-webkit-flex-grow: 1;
+
+flex-grow: 1;
+
+width: 9em;
+
+display: none;
+
+}
+
+
+
+.osdVolumeSlider.mdl-slider.mdl-js-slider.mdl-slider-hoverthumb {
+
+  display: none;
+
+}
+
+
+
+.volumeButtons {
+
+display: flex;
+
+margin: 0 1em 0 .29em;
+
+margin-right: 0px;
+
+}
+
+
+
+
+
+/* Hide extra buttons in media player */
+
+
+
+
+
+.btnPreviousChapter, .btnNextChapter, .btnRewind, .btnFastForward, .btnPreviousTrack {
+
+  display: none;
+
+}
+
+
+
+
+
+/* increase player header and bottom icon sizes */
+
+
+
+.osdHeader .headerTop {
+
+max-height: 3em;
+
+pointer-events: all;
+
+font-size: 125%;
+
+}
+
+
+
+.videoOsdBottom .buttons {
+
+  flex-wrap:wrap;
+
+  padding:.25em 0 0;
+
+  font-size: 125%;
+
+}
+
+
+
+/* increase header bar icon sizes */
+
+.layout-desktop .headerTop {
+
+font-size: 125%;
+
+}
+
+
+
+/* increases sidebar icon sizes to match above */
+
+.layout-desktop .drawerContent {
+
+font-size: 110%;
+
+}
+
+
+
+.mainDrawer-scrollContainer {
+
+font-size: 110%;
+
+}
+
+
+
+
+
+/* turns slider bubble into same thickness as play bar*/
+
+.mdl-slider::-moz-range-thumb {
+
+  border-radius:50%;
+
+  height:0.8em;
+
+  -moz-transition:.2s;
+
+  transition:.2s;
+
+  width:0.8em
+
+}
+
+
+
+
+
+.mdl-slider::-webkit-slider-thumb {
+
+  -webkit-appearance:none;
+
+  border-radius:50%;
+
+  height:0.8em;
+
+  pointer-events:none;
+
+  -webkit-transition:.2s;
+
+  transition:.2s;
+
+  width:0.8em
+
+}
+
+
+
+
+
+/* turns slider bubble into white rectangle on hover */
+
+.mdl-slider-hoverthumb:hover::-moz-range-thumb {
+
+  transform:scale(0.75, 2.3);
+
+  border-radius:70%/17%;
+
+  background-color:white;
+
+}
+
+.mdl-slider.show-focus:focus::-moz-range-thumb {
+
+  transform:scale(0.75, 2.3);
+
+  border-radius:70%/17%;
+
+  background-color:white;
+
+}
+
+
+
+
+
+.mdl-slider-hoverthumb:hover::-webkit-slider-thumb {
+
+  -webkit-transform:scale(0.7, 2.3);
+
+  transform:scale(0.75, 2.3);
+
+  border-radius:70%/17%;
+
+  background-color:white;
+
+}
+
+.mdl-slider.show-focus:focus::-webkit-slider-thumb {
+
+  -webkit-transform:scale(0.75, 2.3);
+
+  transform:scale(0.7, 2.3);
+
+  border-radius:70%/17%;
+
+  background-color:white;
+
+}
+
+
+
+
+
+/* round and blur progress bar */
+
+.mdl-slider-background-flex {
+
+  background:hsla(0,0%,100%,.3);
+
+  border:0;
+
+  display:-webkit-flex;
+
+  display:flex;
+
+  height:.8em;
+
+  left:0;
+
+  margin-top:-.39em;
+
+  overflow:hidden;
+
+  padding:0;
+
+  top:50%;
+
+  width:100%;
+
+  border-radius: 12px !important;
+
+  backdrop-filter: blur(9px) !important
+
+}
+
+
+
+/* round playbar buffer */
+
+
+
+.mdl-slider-background-upper {
+
+  background:#666;
+
+  background:hsla(0,0%,100%,.4);
+
+  bottom:0;
+
+  left:0;
+
+  position:absolute;
+
+  top:0;
+
+  width:0;
+
+  border-radius: 12px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dialogs */
+
+.dialog, .mainDrawer, .appfooter {
+
+backdrop-filter: blur(21px);
+
+background-color: rgba(var(--dark), 0.75) !important;
+
+border-radius:var(--rounding-large) !important;
+
+box-shadow: 0 0 1.9vh #000;
+
+}
+
+.toast {
+
+  backdrop-filter: blur(21px);
+
+background-color: rgba(var(--accent-off), 0.75) !important;
+
+color: rgba(var(--darkest), 1) !important;
+
+text-shadow: 0px 0px 4px rgba(0,0,0,0) !important;
+
+font-weight: bold;
+
+  box-shadow: 0 0 1.9vh #000;
+
+}
+
+
+
+.actionSheetContent {
+
+padding: 0.4em 0 !important;
+
+margin-left: 0.75em !important;
+
+margin-right: 0.75em !important;
+
+margin-bottom: 0.35em !important;
+
+}
+
+
+
+.navMenuOption-selected, .selectionCommandsPanel {
+
+color: rgba(var(--darkest), 1) !important;
+
+background-color: rgba(var(--accent), 0.55) !important;
+
+backdrop-filter: blur(4px);
+
+}
+
+
+
+.raised, .fab, a[data-role="button"] {
+
+  background: rgba(var(--accent), 0.75) !important;
+
+  color: white!important;
+
+}
+
+
+
+div[data-role="controlgroup"] a.ui-btn-active {
+
+background: rgb(var(--accent)) !important;
+
+color: rgba(var(--darkest), 1) !important;
+
+}
+
+
+
+/* changes the color of icons in various places such as settings > activity, settings> notifications, subtitle results, etc*/
+
+#peopleList .material-icons.listItemIcon.person, 
+
+#listGenres .material-icons.listItemIcon.live_tv,
+
+#listStudios .material-icons.listItemIcon.live_tv,
+
+#listTags .material-icons.listItemIcon.live_tv,
+
+#repositories .listItemIcon:not(.listItemIcon-transparent),
+
+#dlnaProfilesPage .listItemIcon:not(.listItemIcon-transparent),
+
+.subtitleList .material-icons.listItemIcon.closed_caption,
+
+.subtitleResults .material-icons.listItemIcon.closed_caption {
+
+  background: rgba(var(--accent-off), 1) !important;
+
+  color: rgba(var(--darkest), 1) !important;
+
+}
+
+
+
+/* fixes alignment of download and delete icons in edit subtitle screen */
+
+.subtitleList, .btnDelete.listItemButton.paper-icon-button-light,
+
+.subtitleResults .btnDownload.listItemButton.paper-icon-button-light {
+
+  margin-right: 1em;
+
+}
+
+
+
+/* moves dialogs up 
+
+.dialogContainer {
+
+top: -110px;
+
+}*/
+
+
+
+
+
+/* rounds and pads episode list */
+
+
+
+.layout-desktop #childrenContent .listItem {
+
+padding-left: 1em !important;
+
+padding-right: 0.5em !important;
+
+padding-top: 0.7em !important;
+
+padding-bottom: 0.7em !important;
+
+border-radius: 28px !important;
+
+}
+
+
+
+#childrenContent .listItem:hover:not(.listItem-button) {
+
+background-color: rgba(var(--darkest),0.6);
+
+backdrop-filter: blur(6px);
+
+}
+
+
+
+/* collapsable menu */
+
+.collapseContent {
+
+background-color: rgba(var(--darkest),0.96);
+
+border-radius: var(--rounding-alt);
+
+margin-top: 9px;
+
+}
+
+
+
+.mdl-radio__circles {
+
+border-radius: 50%;
+
+height: 1.78em;
+
+margin-right: 1.54em;
+
+width: 1.78em;
+
+}
+
+
+
+
+
+
+
+/*Improve some menu alignments*/
+
+.navMenuOptionText {
+
+    margin-top: 0;
+
+}
+
+.formDialogHeaderTitle {
+
+  margin-left: 1em;
+
+}
+
+.formDialogContent {
+
+  margin-bottom: 1.1em;  /* previously 6.2 */
+
+}
+
+.dialogContentInner {
+
+  padding: .5em 1em 1em;
+
+  padding-right: 1em;
+
+  padding-left: 1em;
+
+}
+
+.listItem-indexnumberleft {
+
+  margin: 1em;
+
+}
+
+
+
+/* adds padding to entries in Settings > Dashboard: Activity, Settings > Activity, etc. 
+
+.listItem:not(.listItem-button.actionSheetMenuItem.emby-button) {
+
+  padding-left: 1em;
+
+}
+
+*/
+
+
+
+/* Removes above padding from Settings > Dashboard: Path */
+
+div.dashboardSection:nth-child(3) > div:nth-child(2) .listItem {
+
+  padding-left: 0em;
+
+}
+
+
+
+
+
+.activeSession .backdropCard .backdropCard-scalable {
+
+    padding: 0.8em;
+
+}
+
+
+
+/* makes progressbar in the Settings > Dashboard nicer */
+
+#dashboardPage .activeSession .backgroundProgress, .activeSession .playbackProgress, .activeSession .transcodingProgress {
+
+bottom: 0.6em;
+
+height: 8px;
+
+left: 0.7em;
+
+position: absolute;
+
+right: 0.7em;
+
+width: 94%;
+
+}
+
+
+
+.dialogContainer .focuscontainer {
+
+border-radius: var(--rounding-large) !important;
+
+}
+
+
+
+/* adds top padding to right click dialogs */
+
+.dialogContainer .focuscontainer.actionsheet-not-fullscreen.actionSheet.centeredDialog {
+
+padding-top: 5.5px;
+
+}
+
+
+
+.formDialogContent.smoothScrollY {
+
+padding-bottom: 3em;
+
+padding-top: 2em;
+
+}
+
+
+
+
+
+/* recolors icons in Settings > Activities, Notifications and Scheduled Tasks*/
+
+#dashboardPage .listItemIcon, #serverActivityPage .listItemIcon {
+
+  background-color: rgba(var(--accent-off)) !important;
+
+  color: rgba(var(--darkest)) !important;
+
+}
+
+
+
+.listItemIcon.material-icons.notifications_active {
+
+  background-color: rgba(var(--accent-off)) !important;
+
+  color: rgba(var(--darkest)) !important;
+
+}
+
+.listItemIcon.material-icons.notifications_off {
+
+  background-color: rgba(var(--accent-off),.44) !important;
+
+  color: rgba(var(--darkest)) !important;
+
+}
+
+
+
+.material-icons.listItemIcon.schedule {
+
+  background-color: rgba(var(--accent-off)) !important;
+
+  color: rgba(var(--darkest)) !important;
+
+}
+
+
+
+
+
+
+
+
+
+/* fields no border */
+
+
+
+
+
+
+
+/*No borders, background highlights*/
+
+.infoBanner {
+
+    background: rgba(var(--accent), 0.15) !important;
+
+}
+
+fieldset {
+
+    border: 1px solid rgba(var(--accent), 0.3);
+
+}
+
+
+
+.emby-input,
+
+.emby-textarea,
+
+.emby-select-withcolor {
+
+  border: none !important;
+
+  background-color: rgba(var(--darkest)); 
+
+}
+
+
+
+.checkboxOutline {
+
+  border: 0.22em solid rgba(var(--accent-off)) !important;
+
+
+
+}
+
+
+
+#itemDetailPage .emby-select-withcolor {
+
+  background: rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+/*Change look of in-focus fields: text areas and selection panels */
+
+.itemSelectionPanel {
+
+border: 0.01em solid rgba(var(--accent)) !important;
+
+background-color: rgba(var(--accent),.2) !important;
+
+padding: 0.5em;
+
+}
+
+
+
+.itemSelectionCount {
+
+  color: rgba(var(--darkest)) !important;
+
+}
+
+
+
+.emby-textarea {
+
+background-color: rgba(var(--darkest)) !important;
+
+color: rgba(var(--accent)) !important;
+
+}
+
+
+
+.emby-textarea:focus {
+
+border-color: rgba(var(--accent),.9) !important;
+
+background-color: rgba(var(--darkest)) !important;
+
+}
+
+
+
+.emby-input:focus {
+
+border-color: rgba(var(--accent),.9) !important;
+
+background-color: rgba(var(--darkest)) !important;
+
+}
+
+
+
+
+
+.emby-select-withcolor:focus {
+
+border-color: rgba(var(--accent),.9) !important;
+
+background-color: rgba(var(--darkest)) !important;
+
+}
+
+
+
+.emby-select-withcolor {
+
+background-color: rgba(var(--darkest)) !important;
+
+color: white;
+
+}
+
+#loginPage .sectionTitle{
+	color: rgba(var(--accent));
+}
+#loginPage .inputLabel {
+	color: white;
+	font-weight:bold;
+	}
+>>>>>>> parent of 4e73d3a (Update style.css)
 	
 .pageTitleWithLogo { 
 	background-image: url(https://i.imgur.com/dAEeqmL.png) !important;
